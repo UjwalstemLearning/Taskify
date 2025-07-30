@@ -1,0 +1,111 @@
+/* 🔵 Container & Layout */
+.account-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+/* 🔵 Card */
+.account-card {
+  width: 960px;
+  height: 713px;
+  padding: 20px;
+}
+
+/* 🔵 Header */
+.account-header {
+  width: 960px;
+  height: 67px;
+  padding: 20px 16px 12px 16px;
+  text-align: center;
+}
+
+.account-header h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 35px;
+  color: hsla(210, 13%, 8%, 1);
+}
+
+/* 🔵 Form Section */
+.account-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 🔵 Input Wrapper */
+.input-wrapper {
+  width: 480px;
+  padding: 12px 16px;
+}
+
+.input-wrapper input {
+  width: 100%;
+  height: 56px;
+  border-radius: 12px;
+  border: 1px solid hsla(210, 17%, 88%, 1);
+  padding: 15px;
+  background-color: hsla(0, 0%, 100%, 1);
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  color: hsla(210, 17%, 46%, 1);
+  outline: none;
+}
+
+/* 🔵 Button */
+.button-wrapper {
+  width: 480px;
+  padding: 12px 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.button-wrapper button {
+  background-color: hsla(209, 92%, 49%, 1);
+  width: 100%;
+  height: 40px;
+  min-width: 84px;
+  max-width: 480px;
+  padding: 0 16px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.button-wrapper button:hover {
+  background-color: hsla(209, 80%, 40%, 1);
+}
+
+/* 🔵 Footer */
+.account-footer {
+  width: 960px;
+  text-align: center;
+  padding: 4px 16px 12px 16px;
+}
+
+.account-footer p {
+  font-size: 14px;
+  color: #61758A;
+  font-family: 'Inter', sans-serif;
+}
+
+.account-footer a {
+  color: hsla(209, 92%, 49%, 1);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.account-footer a:hover {
+  text-decoration: underline;
+}

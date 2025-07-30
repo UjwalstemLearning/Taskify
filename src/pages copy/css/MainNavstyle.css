@@ -1,0 +1,25 @@
+.navbar {
+  border: 1px solid hsla(210, 17%, 88%, 1); /* Matches border-border-hsla */
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.logo-section {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.logo-text {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: hsla(210, 13%, 8%, 1);
+  width: 65px;
+  height: 23px;
+  font-family: 'Inter', sans-serif;
+}
