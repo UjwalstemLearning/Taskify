@@ -1,0 +1,31 @@
+.navbar{
+   width: 100%;
+   height: clamp(50px,5vw,100px);
+   border-bottom: 1px solid #f0eded;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0px 20px;
+}
+
+.logo{
+    svg{
+          height: clamp(90px, 9vw, 180px);
+          width: clamp(90px, 9vw, 180px);
+    }
+}
+
+
+.profile {
+  height: clamp(40px, 4vw, 80px);
+  width: clamp(40px, 4vw, 80px);
+  border-radius: 50%;
+  overflow: hidden; 
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+    display: block;
+  }
+}
