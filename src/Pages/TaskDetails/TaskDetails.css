@@ -1,0 +1,131 @@
+.task_details{
+  width: 100%;
+}
+
+.task_details-heading{
+   width: 100%;
+   /* border: 1px solid; */
+   padding: 20px clamp(70px,7vw,140px);
+   height: 300px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   h6{
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #121417;
+    line-height: 23px;
+   }
+}
+
+.task_details-contant-para{
+    /* border: 1px solid; */
+    height: 110px;
+    overflow-x: auto;
+}
+
+.task_details-contant-para::-webkit-scrollbar{
+    display: none;
+}
+
+.task_details-heading_contant{
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+}
+
+.task_details-contant{
+     
+    display: flex;
+   flex-direction: column;
+   gap: 10px;
+
+
+    h1{
+
+    }
+    span{
+        color: #61758A;
+        font-weight: 400;
+        font-size: 0.9rem;
+    }
+    h2{
+
+    }
+    p{
+      color: #121417;
+      font-size: 1rem;
+    }
+}
+
+.task_details-info{
+     padding: 20px clamp(70px,7vw,140px);
+}
+
+.task_details-info_top{
+    width: 100%;
+    display: flex;
+    gap: 100px;
+    
+}
+
+.info{
+    border-top: 1px solid #cdd7e2;
+    padding: 20px 10px;
+    h6{
+     color: #61758A;
+     font-weight: 400;
+     font-size: 0.9rem;
+    }
+    span{
+        color: #121417;
+        font-weight: 400;
+        font-size: 0.9rem;
+    }
+}
+
+.task_details-info_bottom{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.task_details-bottom{
+      padding: 20px clamp(70px,7vw,140px);
+      margin-top: 50px;
+      display: flex;
+      gap: 40px;
+      button{
+        padding: 8px 15px;
+        border-radius: 50px;
+        border: none;
+        cursor: pointer;
+      }
+}
+
+.edit-btn{
+   /* background-color: #F0F2F5;
+   color: #121417; */
+       background-color: #0A80ED;
+      color: #ffffff;
+     
+      /* border: 1px solid #0A80ED; */
+}
+
+.delete-btn{
+    /* background-color: #F0F2F5;
+   color: #121417; */
+      background-color: red;
+      color: #ffffff;
+}
+
+.edit-btn:hover{
+       background-color: transparent;
+       border: 1px solid #0A80ED;
+       color: #0A80ED;
+}
+
+.delete-btn:hover{
+       background-color: transparent;
+       border: 1px solid red;
+       color: red;
+}

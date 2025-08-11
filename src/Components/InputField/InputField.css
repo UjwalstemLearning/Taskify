@@ -1,0 +1,63 @@
+.input{
+    width: 100%;
+    height: 70vh;
+    padding: 0px clamp(50px,5vw,100px);
+}
+
+.inputField{
+    width: 40%;
+    height: 65vh;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.semelar{
+    display: flex;
+    flex-direction: column;
+    gap: clamp(10px,1vw,20px);
+    padding: 10px 0px 0px 0px;
+    label{
+        font-weight: 600;
+        color: #121417;
+    }
+    select{
+        outline: none;
+        padding: 10px 0px 10px 10px;
+        border-radius: 10px;
+        border: 1px solid #DEE0E3;
+    }
+    input{
+         outline: none;
+         padding: 10px 0px 10px 10px;
+         border-radius: 10px;
+         border: 1px solid #DEE0E3;
+    }
+    textarea{
+        outline: none;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid #DEE0E3;
+    }
+}
+
+.tasktitle{
+
+}
+
+.description{
+
+}
+
+.assignee{
+
+}
+
+.statu{
+
+}
+
+.duedate{
+
+}

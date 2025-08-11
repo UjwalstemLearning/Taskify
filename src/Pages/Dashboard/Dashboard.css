@@ -20,10 +20,11 @@
             padding: 5px 10px;
             border: none;
             border-radius: 5px;
+            cursor: pointer;
     }
 }
 
 .table{
-    border: 1px solid;
+    
     margin-top: 40px;
 }
